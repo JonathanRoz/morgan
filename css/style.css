@@ -1,0 +1,1348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* .container{
+    width: 1170px;
+    margin: 0 auto;
+} */
+/*=================================
+        common tag start
+==================================*/
+/*=================================
+        nav start
+==================================*/
+nav{
+    width: 100%;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+nav .logo{
+    width: 20%;
+    margin-left: -24px;
+}
+nav .logo img{
+    margin-left: -49px;
+    margin-top: 34px;
+}
+
+nav  ul {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav  ul li{
+    text-align: center;
+    display: inline-block;
+    justify-content: flex-end;
+    position: relative !important;
+  
+   
+}
+
+nav  ul li a{
+    color: #ffffff !important;
+    margin-right: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    transition: .4s;
+    padding-top: 33px !important;
+    padding-left: 11px;
+    padding-right: 9px;
+    padding-bottom: 10px;
+}
+/* nav  ul li ul{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 100%;
+ 
+}
+nav ul li ul li{
+    display: block;
+}
+nav ul li ul li a {
+    display: block !important;
+    color: #fff;
+    margin: 18px 0;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+} */
+nav  ul li a:hover{
+    background: #d6c6b2;
+    color: #222222;
+}
+nav  ul  .active {
+    background: #d6c6b2;
+    color: #222222;
+}
+.low{
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    
+}
+
+
+/*===================================
+        nav bar end
+====================================*/
+/*===================================
+        banner part start
+====================================*/
+#banner-part{
+    background: #08080c;
+padding-top: 534px;
+padding-bottom: 93px;
+    position: relative;
+}
+#banner-part .main{
+    display: flex;
+}
+#banner-part .banner-boy{
+width: 30%;
+position: absolute;
+top: 0;
+left: 11%;
+z-index: 9999;
+}
+
+
+#banner-part .details{
+    width: 70%;
+ 
+    display: flex;
+    align-items: center;
+}
+#banner-part .details h3{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    position: absolute;
+    top: 229px;
+    left: 788px;
+    z-index: 9999;
+}
+#banner-part .details  h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 102px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 247px;
+    left: 630px;
+}
+#banner-part .details h2{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 86px;
+    color: #ffffff;
+    position: absolute;
+    top: 350px;
+    left: 576px;
+    z-index: 99999;
+}
+#banner-part .details .browser{
+    position: absolute;
+    bottom: 101px;
+    left: 690px;
+    display: flex;
+}
+#banner-part .details  a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #c8b9a7;
+    background: #040309;
+    border: 1px solid #d6c6b2;
+    padding: 13px 30px;
+    margin-right: 21px;
+    transition: .4s;
+    text-transform: uppercase;
+}
+#banner-part .details .browser .hire a{
+    padding: 15px 38px;
+}
+
+#banner-part .details  a:hover{
+    background: #d6c6b2;
+    color: #222222;
+}
+
+
+/*===================================
+        banner part end
+====================================*/
+/*===================================
+        about part start
+====================================*/
+#about-part{
+    background: #282828;
+    height: 713px;
+}
+
+#about-part .img{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#about-part .img img{
+    width: 83%;
+    margin-top: 63px;
+}
+
+#about-part .text{
+    width: 100%;
+ 
+}
+#about-part .text h2{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #d6c6b2;
+    margin-top: 120px;
+    margin-left: 23px;
+}
+#about-part .text  p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 35px;
+    margin-left: 21px;
+    color: #ffffff;
+}
+#about-part .text h3{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #d6c6b2;
+    margin-top: 66px;
+    margin-left: 23px;
+}
+#about-part .text ul {
+    margin-top: 21px;
+    margin-left: 18px;
+  
+}
+    
+
+#about-part .text ul li{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid #fafafa;
+    line-height: 46px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 11px;
+    transition: .4s;
+}
+#about-part .text ul li:hover{
+    background: #d6c6b2;
+    color: #222222;
+}
+
+/*===================================
+        about part end
+====================================*/
+/*===================================
+        service part start
+====================================*/
+#service-part{
+    background: #212125;
+    height: 526px;
+    position: relative;
+}
+#service-part .title{
+    text-align: center;
+    position: absolute;
+    top: 57px;
+    left: 44%;
+
+}
+#service-part  h3{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #d6c6b2;
+   
+}
+
+#service-part .item{
+    width: 100%;
+  
+    margin-top: 170px;
+    text-align: center;
+}
+#service-part .item .pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service-part .item h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 16px;
+    color: #ffffff;
+    transition: .4s;
+}
+#service-part .item p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #cccccc;
+    margin-top: 22px;
+    line-height: 24px;
+}
+#service-part .item:hover h3{
+    color: #d6c6b2;
+}
+
+/*===================================
+        service part end
+====================================*/
+/*===================================
+        portfolio part start
+====================================*/
+#portfolio-part{
+    background: #282828;
+    text-align: center;
+    height: 1151px;
+}
+
+#portfolio-part .images{
+    width: 100%;
+  
+    margin-top: 153px;
+    
+}
+#portfolio-part .images .upper {
+    display: flex;
+    justify-content: space-between;
+}
+#portfolio-part .images .item{
+    width: 100%;
+    height: 449px;
+    position: relative;
+    margin: 0 10px;
+   
+ 
+}
+#portfolio-part .images .item .overlay{
+    width: 100%;
+    height: 92%;
+    background: rgb(215, 190, 170,.7);
+    position:absolute ;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    opacity: 1;
+    transform: scale(0);
+}
+#portfolio-part .images .item:hover .overlay{
+    width: 100%;
+    opacity: 1;
+    transform: scale(1);
+}
+#portfolio-part .images .item .overlay .icon{
+width: 100%;
+height: 339px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#portfolio-part .images .item .overlay .text{
+    text-align: center;
+}
+#portfolio-part .images .item .overlay h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+}
+#portfolio-part .images .item .overlay h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #222222;
+    margin-top: 8px;
+}
+#portfolio-part .images .item .overlay i{
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #444444;
+    background: #ffffff;
+    color: #444444;
+
+}
+#portfolio-part .images .item .overlay i:hover{
+    border: 1px solid #444444;
+    background: #444444;
+    color: #ffffff;
+    transition: .4s;
+}
+#portfolio-part .images .item img{
+    width: 100%;
+    height: 92%;
+   
+}
+#portfolio-part .images .lower{
+    display: flex;
+    justify-content: space-between;
+}
+#portfolio-part .list{
+    width: 100%;
+    text-align: center;
+   
+}
+#portfolio-part .list h3{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #d6c6b2;
+    margin-left: -173px;
+    margin-top: 136px;
+}
+#portfolio-part .list ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 37px;
+    margin-left: -208px;
+    transition: .4s;
+}
+#portfolio-part .list ul  .brand{
+    margin-left: -204px;
+}
+#portfolio-part .list ul  .logo{
+    margin-left: -224px;
+}
+#portfolio-part .list ul  .ilu{
+    margin-left: -228px;
+}
+#portfolio-part .list ul .motion{
+    margin-left: -181px;
+}
+#portfolio-part .list ul .apps{
+    margin-left: -226px;
+}
+#portfolio-part .list ul li:hover{
+    padding-left: 34px;
+    color: #d6c6b2; 
+}
+
+#portfolio-part a{
+display: inline-block;
+margin-left: -463px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 16px;
+text-transform: uppercase;
+padding: 12px 26px;
+background: #d6c6b2;
+color: #222222;
+}
+
+/*===================================
+        portfolio part end
+====================================*/
+/*===================================
+        testimonial  part start
+====================================*/
+#testi-part{
+    background: url(../image/testi-background.png) no-repeat center;
+    background-size: cover;
+    height: 512px;
+    position: relative;
+}
+#testi-part .title{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 54px;
+    left: 1px;
+ 
+}
+#testi-part .title h3{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #d6c6b2;
+}
+
+#testi-part  .item{
+    width: 100%;
+    margin-top: 118px;
+    display: flex;
+}
+
+#testi-part  .item .left{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#testi-part  .item .left img{
+    margin-top: 30px;
+}
+#testi-part  .item .right{
+    width: 70%;
+  
+}
+#testi-part  .item .right h3{
+    font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #fff;
+margin-left: -1px;
+    margin-top: 26px;
+}
+#testi-part  .item .right h4{
+    font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #efeff0;
+margin-left: -1px;
+margin-top: 2px;
+}
+#testi-part  .item .right .star{
+    display: flex;
+    margin-left: -1px;
+    margin-top: 14px;
+}
+#testi-part  .item .right .star i{
+    font-size: 16px;
+    color: #ffffff;
+  margin-right: 6px;
+}
+#testi-part  .item .right p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 21px;
+   
+    color: #ffffff;
+}
+#testi-part .slick-dots{
+    position: absolute;
+    top: 388px;
+    left: 43%;
+}
+#testi-part .slick-dots li{
+    display: inline-block;
+    margin: 0 10px;
+}
+#testi-part .slick-dots li button{
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+   border-radius: 50%;
+   background: transparent;
+   border: 1px solid #fff;
+}
+#testi-part  .slick-dots .slick-active button {
+    background: #d6c6b2;
+}
+/*===================================
+        testimonial  part end
+====================================*/
+/*===================================
+        price  part start
+====================================*/
+#price-part{
+    background: #282828;
+    height: 882px;
+    position: relative;
+}
+#price-part .title{
+    text-align: center;
+    position: absolute;
+    top: 112px;
+    left: 43%;
+}
+#price-part .title h3{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #d6c6b2;
+}
+
+#price-part .item{
+    width: 100%;
+    height: 629px;
+    background: #333333;
+    margin-top: 212px;
+    transition: .4s;
+}
+#price-part .item:hover{
+    background: #d6c6b2;
+}
+#price-part .item .free{
+    width: 100%;
+    height: 81px;
+    background: #d6c6b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+   
+}
+#price-part .item:hover .free{
+    -webkit-box-shadow: -4px 11px 9px -10px rgba(0,0,0,0.67);
+    -moz-box-shadow: -4px 11px 9px -10px rgba(0,0,0,0.67);
+    box-shadow: -4px 11px 9px -10px rgba(0,0,0,0.67);
+}
+#price-part .item .img{
+    width: 100%;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+
+   
+}
+
+
+#price-part .item:hover .img img{
+    -webkit-box-shadow: -4px 11px 9px -9px rgba(0,0,0,0.67);
+    -moz-box-shadow: -4px 11px 9px -9px rgba(0,0,0,0.67);
+    box-shadow: -4px 11px 9px -9px rgba(0,0,0,0.67);
+}
+#price-part .two:hover .img img{
+    filter: drop-shadow(0 0 0.2rem #000);
+}
+#price-part .item .doller{
+    width: 100%;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9px;
+}
+#price-part .two .doller{
+    margin-left: 16px;
+}
+#price-part .item:hover .doller i{
+    color: #222222;
+}
+#price-part .item .doller i{
+    font-size: 60px;
+    color: #ffffff;
+
+}
+#price-part .item .doller h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 22px;
+    color: #fff;
+    position: relative;
+}
+
+#price-part .item:hover .doller h3{
+    color: #222222;
+}
+#price-part .item .doller h3::after{
+    width: 229px;
+    height: 1px;
+    content: "";
+    background: #444240;
+    position: absolute;
+    bottom: -10px;
+    left: -210%;
+    transition: .4s;
+}
+#price-part .item:hover .doller h3::after{
+background: #c7b9a7;
+}
+#price-part .two .doller h3::after{
+    bottom: -17px;
+    left: -79px;
+}
+#price-part .three .doller h3::after{
+    bottom: -17px;
+    left: -79px;
+}
+
+#price-part .item .doller h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    margin-top: 24px;
+    color: #fff;
+}
+#price-part .item:hover .doller h4{
+    color: #222222;
+}
+#price-part .item .list{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+}
+#price-part .item .list ul {
+    margin-top: -83px;
+}
+#price-part .item .list ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 29px;
+    color: #ffffff;
+    transition: .4s;
+    text-align: center;
+}
+
+#price-part .item:hover .list ul li{
+    color: #444444;
+}
+#price-part .item .list i{
+    font-size: 14px;
+    color: #ffffff;
+    transition: .4s;
+}
+#price-part .item:hover .list i{
+    color: #444444;
+}
+#price-part .item .list  h5{
+    margin-top: 29px;
+    margin-left: 54px;
+}
+#price-part .item .list  h6{
+    margin-top: 28px;
+    margin-left: 54px;
+}
+#price-part .item .button{
+    width: 100%;
+    height: 73px;
+    text-align: center;
+
+}   
+#price-part .item .button a{
+    display: inline-block;
+    color:#ffffff ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 9px 28px;
+background: #333333;
+border: 1px solid #fff;
+transition: .4s;
+}
+#price-part .item:hover .button a{
+    background: #d6c6b2;
+    color: #222222;
+border-color:#d6c6b2 ;
+-webkit-box-shadow: 0px 6px 14px -4px rgba(0,0,0,0.44);
+-moz-box-shadow: 0px 6px 14px -4px rgba(0,0,0,0.44);
+box-shadow: 0px 6px 14px -4px rgba(0,0,0,0.44);
+}
+#price-part .item .free h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+}
+/*===================================
+        price  part end
+====================================*/
+/*===================================
+        blog  part start
+====================================*/
+#blog-part{
+    background: #333333;
+    height: 970px;
+    position: relative;
+}
+#blog-part .title{
+    position: absolute;
+    top: 53px;
+    left: 45%;
+    width: 100%;
+    height: 100px;
+}
+#blog-part .title h3{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #d6c6b2;
+}
+
+#blog-part .left{
+    width: 100%;
+    margin-left: 77px;
+    margin-top: 175px;
+}
+#blog-part .left .item{
+    width: 573px;
+    
+  
+    display: flex;
+}
+#blog-part .left .item .img{
+    width: 40%;
+    height: 311px;
+    background: indianred;
+    position: relative;
+}
+#blog-part .left .item .img img{
+    width: 117%;
+    margin-left: -39px;
+  
+}
+#blog-part .left .item .overlay{
+    width: 117%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -39px;
+    background: rgb(151, 140, 127,.7);
+    text-align: right;
+    opacity: 1;
+    transform: scale(0);
+    transition: .4s;
+}
+#blog-part .left .item:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
+}
+#blog-part .left .item .overlay h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 11px;
+    margin-top: 30px;
+}
+#blog-part .left .item .overlay h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-right: 11px;
+}
+#blog-part .left .item .details{
+    width: 60%;
+    height: 311px;
+    background: #282828;
+}
+#blog-part .left .item .details .admin {
+width: 100%;
+height: 56px;
+display: flex;
+justify-content: center;
+position: relative;
+}
+#blog-part .left .item .details .admin p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 3px;
+    color: #999999;
+    margin-top: 24px;
+}
+#blog-part .left .item .details .admin i{
+ color: #999999;
+ margin-left: -181px;
+    margin-top: 26px;
+    font-size: 14px;
+}
+#blog-part .left .item .details .admin .coment{
+    width: 58%;
+    position: absolute;
+    top: 0;
+    left: 146px;
+    display: flex;
+    justify-content: flex-end;
+}
+#blog-part .left .item .details .admin .coment .one{
+    margin-left: -158px;
+    margin-top: 4px;
+    font-size: 14px;
+
+}
+
+#blog-part .left .item .details .admin .coment .two{
+    margin-left: -103px;
+    margin-top: -15px;
+    font-size: 14px;
+}
+#blog-part .left .item .details .admin .coment .three{
+    margin-left: -102px;
+    margin-top: -15px;
+    position: absolute;
+    top: 44px;
+    right: 27px;
+    font-size: 14px;
+}
+#blog-part .left .item .details .tag {
+    width: 100%;
+    height: 64px;
+   
+}
+#blog-part .left .item .details .tag h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 15px;
+    color: #d6c6b2;
+    transition: .4s;
+}
+#blog-part .left .item:hover .details .tag h3{
+  
+    color:#fff ;
+}
+#blog-part .left .item .details .para {
+    width: 100%;
+    height: 123px;
+  
+}
+#blog-part .left .item .details .para p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 12px 22px;
+    color: #a3a3a3;
+   
+}
+#blog-part .left .item .details .share{
+    width: 100%;
+    height: 68px;
+ 
+}
+#blog-part .left .item .details .share a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #d6c6b2;
+    margin-top: 20px;
+    margin-left: 19px;
+    transition: .4s;
+}
+#blog-part .left .item:hover .details .share a{
+   
+    color: #fff;
+}
+#blog-part .left .item .details .share p{
+    margin-left: 270px;
+    margin-top: -16px;
+    color: #d6c6b2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+#blog-part .left .item .details .share i{
+    font-size: 16px;
+    color: #d6c6b2;
+    transition: .4s;
+}
+#blog-part .left .item:hover .details .share i{
+    color: #fff;
+}
+#blog-part .left .two{
+    margin-top: 20px;
+    display: flex;
+}
+#blog-part .right{
+    width: 100%;
+  
+    position: absolute;
+    top: 177px;
+    left: 57%;
+}
+#blog-part .right .pic{
+    width: 43%;
+    height: 250px;
+    background: rgb(255, 80, 89);
+    position: relative;
+}
+#blog-part .right .pic img{
+    width: 100%;
+}
+#blog-part  .right .overlay{
+    width: 100%;
+    height: 132%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    background: rgb(151, 140, 127,.7);
+    text-align: right;
+    opacity: 1;
+    transform: scale(0);
+    transition: .4s;
+   
+}
+#blog-part .right .pic:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
+
+}
+#blog-part  .right .overlay h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 11px;
+    margin-top: 30px;
+}
+#blog-part .right .overlay h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-right: 11px;
+}
+#blog-part .right .text{
+    width: 43%;
+    height: 307px;
+    background: #d6c6b2;
+    position: relative;
+
+}
+#blog-part .right .text  .admin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 42px;
+    margin-top: 81px;
+}
+
+#blog-part .right .text  .admin p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: -405px;
+    color: #666666;
+    margin-top: -70px;
+}
+#blog-part .right  .text .admin .coment{
+    width: 68%;
+    height: 133px;
+    position: absolute;
+    top: 0;
+    left: 173px;
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+#blog-part .right .text .admin .coment .one{
+    margin-left: -122px;
+    margin-top: 93px;
+    font-size: 14px;
+    color: #666666;
+}
+#blog-part .right .text  .admin .coment .two{
+   
+    margin-left: -99px;
+    margin-top: -15px;
+    font-size: 14px;
+    color: #666666;
+}
+#blog-part .right .text .admin .coment .three{
+    margin-left: -102px;
+    margin-top: -15px;
+    position: absolute;
+    top: 38px;
+    right: 35px;
+    font-size: 14px;
+    color: #666666;
+}
+#blog-part .right .text .admin i{
+    color: #999999;
+    margin-left: 0px;
+       margin-top: 94px;
+       font-size: 14px;
+}
+#blog-part .right .text   .tag{
+    width: 100%;
+    text-align: center;
+}
+
+#blog-part .right .text .tag h3{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 19px;
+        margin-left: -2px;
+        color:#222222;
+         margin-top: 21px;
+
+}
+#blog-part .right .text   .para{
+    width: 100%;
+    text-align: center;
+}
+#blog-part .right .text   .para p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+   line-height: 24px;
+   padding: 29px 31px;
+   color: #444444;
+}
+#blog-part .right .text   .share{
+    width: 100%;
+ 
+}
+#blog-part .right .text  .share a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #222222;
+    margin-top: 0px;
+    margin-left: 24px;
+    transition: .4s;
+    text-transform: uppercase;
+}
+#blog-part .right .text  .share p{
+    margin-left: 467px;
+    margin-top: -23px;
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+#blog-part .right .item .details .share i{
+    font-size: 16px;
+    color: #666666;
+}
+#blog-part .browse{
+    margin-top: 49px;
+    margin-left: 443px;
+}
+#blog-part .browse a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 11px 16px;
+    background: #d6c6b2;
+    color: #222222;
+}
+/*===================================
+        blog  part end
+====================================*/
+/*===================================
+        footer  part start
+====================================*/
+.footer-part {
+    background: #282828;
+    height: 501px;
+    position: relative;
+}
+
+.footer-part .details{
+    width: 40%;
+    position: absolute;
+    top: 0;
+left: 0;
+   
+}
+.footer-part .details .title{
+    width: 100%;
+
+   
+}
+.footer-part .details .title h3{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+ position: absolute;
+ top: 108px;
+ left: 199px;
+}
+.footer-part .details .list{
+    width: 100%;
+    height: 205px;
+    margin-top: 147px;
+    margin-left: 149px;
+ 
+}
+.footer-part .details .list .item{
+    display: flex;
+}
+
+.footer-part .details .list .font{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-part .details .list .font i{
+    font-size: 18px;
+    color: #cccccc;
+}
+.footer-part .details .list .item:hover .font i{
+    color: #d6c6b2;
+}
+.footer-part .details .list .text{
+    width: 80%;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-part .details .list .text a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: -224px;
+    color: #cccccc;
+}
+.footer-part .details .list .text a:hover{
+    color: #d6c6b2;
+}
+.footer-part .details .list .three:hover .text a{
+color: #d6c6b2;
+}
+.footer-part .details .list .three .text a{
+  
+    margin-left: -285px;
+}
+.footer-part .details .list .two .text a{
+    margin-left: -243px;
+}
+.footer-part .details .list .two:hover .text a{
+    color: #d6c6b2;
+    }
+.footer-part .details .tag{
+    width: 100%;
+   
+}
+.footer-part .details .tag h3{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 200px;
+    margin-top: -8px;
+}
+.footer-part .details .icon{
+    width: 100%;
+   
+}
+.footer-part .details .icon ul{
+    margin-left: 163px;
+    margin-top: 20px;
+}
+.footer-part .details .icon ul li{
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background: #282828;
+    border-radius: 50%;
+    line-height: 52px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 16px;
+    transition: .4s;
+}
+.footer-part .details .icon ul li:hover{
+    color: #ffffff;
+    background: #d6c6b2;
+}
+
+/*===================================
+        footer part end
+====================================*/
+/*===================================
+        copy part start
+====================================*/
+#copy-part{
+    background: #333333;
+    height: 59px;
+    filter: drop-shadow(0 0 0.2rem #000);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copy-part ul li{
+    display: inline-block;
+    color: #cccccc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+#copy-part span{
+    color: red;
+}
+/*===================================
+        copy part end
+====================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+

@@ -1,0 +1,1087 @@
+@media (min-width:320px) and (max-width:575px){
+    nav img{
+        width: 83%;
+    }
+    nav ul{
+        background: #d6c6b2;
+        padding-bottom: 41px;
+    }
+    nav ul li{
+        margin-left: 47px;
+    }
+    nav ul li a:hover {
+        background: #d6c6b2;
+        color: red !important;
+    }
+    nav i{
+        color: #fff;
+    }
+
+     /* ========nav=========== */
+    /* ========banner=========== */
+    #banner-part {
+        padding-bottom: 210px;
+        
+    }
+
+    #banner-part img{
+        width: 242%;
+        margin-top: 89px;
+    }
+    #banner-part .details h3 {
+        top: 436px;
+        left: 58px;
+       
+    }
+    #banner-part .details h1 {
+        font-size: 62px;
+        top: 458px;
+        left: 60px;
+    }
+    #banner-part .details h2 {
+        font-size: 58px;
+        top: 525px;
+        left: 15px;
+    }
+    #banner-part .details .browser {
+        bottom: 45px;
+        left: 25px;
+    }
+    #banner-part .details a {
+        font-size: 14px;
+        padding: 15px 12px;
+      
+    }
+
+    
+    /* ========banner=========== */
+    /* ========about=========== */
+    #about-part {
+        height: 1319px;
+    }
+    #about-part .text p {
+        font-size: 16px;
+        margin-left: 5px;
+     
+    }
+    #about-part .text h3 {
+        margin-top: 36px;
+    
+    }
+    #about-part .text ul {
+        margin-left: -39px;
+    }
+       /* ========about=========== */
+    /* ========service=========== */
+
+    #service-part {
+        margin-top: -1px;
+        height: 1465px;
+    }
+    #service-part h3 {
+        margin-left: -74px;
+    }
+    #service-part .item {
+        width: 100%;
+        margin-top: 131px;
+        text-align: center;
+    }
+    #service-part .item h3 {
+        margin-left: 7px;
+    }
+    /* ========service=========== */
+    /* ========portfolio=========== */
+    #portfolio-part {
+        height: 2675px;
+    }
+
+    #portfolio-part .images .upper {
+        display: block;
+    }
+    #portfolio-part .images .item {
+        width: 88%;
+        left: 3px;
+    }
+    #portfolio-part .images .item img {
+        width: 103%;
+        margin-left: 6px;
+    }
+    #portfolio-part .images .item .overlay {
+        width: 103% !important;
+        background: rgb(215, 190, 170,.4);
+        left: 5px;
+        opacity: 1;
+        transform: scale(1);
+    }
+    #portfolio-part .images .lower {
+        display: block;
+       
+    }
+    #portfolio-part .list h3 {
+        margin-left: -11px;
+     
+    }
+    #portfolio-part .list ul li {
+        margin-left: -36px;
+    }
+    #portfolio-part .list ul .logo {
+        margin-left: -54px;
+    }
+    #portfolio-part .list ul .ilu {
+        margin-left: -54px;
+    }
+    #portfolio-part .list ul .brand {
+        margin-left: -28px;
+    }
+    #portfolio-part .list ul .motion {
+        margin-left: -11px;
+    }
+    #portfolio-part .list ul .apps {
+        margin-left: -47px;
+    }
+    #portfolio-part a {
+        margin-left: -8px;
+        margin-top: 18px;
+    }
+
+
+      /* ========portfolio=========== */
+      /* ========test=========== */
+      #testi-part {
+        height: 621px;
+        
+    }
+    #testi-part .title {
+        width: 94%;
+    }
+    #testi-part .title h3 {
+        margin-left: 35px;
+    }
+      #testi-part .item .left img {
+        width: 100%;
+    }
+    #testi-part .item .right h3 {
+        margin-left: 28px;
+     
+    }
+    #testi-part .item .right h4 {
+        margin-left: 24px;
+      
+    }
+    #testi-part .item .right .star {
+        margin-left: 23px;
+     
+    }
+    #testi-part .item .right p {
+        margin-left: 21px;
+    }
+    #testi-part .top{
+        font-size: 20px;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background: #d6c6b2;
+        text-align: center;
+        position: absolute;
+        top: 103%;
+        left: 33%;
+    }
+    #testi-part .down{
+        font-size: 20px;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background: #d6c6b2;
+        text-align: center;
+        position: absolute;
+        top: 103%;
+        right: 33%;
+    }
+  
+    /* ========test=========== */
+    /* ========price=========== */
+    #price-part {
+        height: 2371px;
+        
+    }
+    #price-part .title h3 {
+        margin-left: -55px;
+        margin-top: -72px;
+    }
+    #price-part .item {
+        margin-top: 141px;
+        width: 94%;
+        margin-left: 10px;
+    }
+
+
+      /* ========price=========== */
+      /* ========blog=========== */
+
+   
+    #blog-part { 
+        height: 2460px;
+    }
+    #blog-part .title {
+        left: 35%;
+        width: 53%;
+      
+    }
+    #blog-part .left {
+        margin-left: 0px;
+        margin-top: 166px;
+    }
+    #blog-part .left .item {
+        background: transparent;
+        display: block;
+        width: 100%;
+        
+    }
+    #blog-part .left .item .img{
+        background: transparent;
+        width: 62%;
+
+    }
+    #blog-part .left .item .img img {
+        width: 152%;
+        margin-left: 10px;
+    }
+    #blog-part .left .item .overlay {
+        width: 152%;
+        height: 113%;
+        background: rgb(151, 140, 127,.5);
+        left: 10px;
+        transform: scale(1);
+    }
+    #blog-part .left .item .details {
+        width: 94%;
+        margin-top: 44px;
+        margin-left: 10px;
+        height: 341px;
+    }
+    #blog-part .left .item .details .admin .coment {
+        width: 52%;
+        display: none;
+    }
+    #blog-part .left .item .details .admin i {
+        margin-left: -134px;
+    }
+    #blog-part .left .item .details .share a {
+        margin-top: 59px;
+    }
+    #blog-part .left .item .details .share p {
+        margin-left: 206px;
+        margin-top: -23px;
+    }
+    #blog-part .right {
+        width: 95%;
+        position: relative;
+        left: 9px;
+        top: 72px;
+    
+    }
+    #blog-part .right .pic {
+        width: 100%;
+        background: transparent;
+    }
+    #blog-part .right .overlay {
+        width: 100%;
+        height: 88%;
+        background: rgb(151, 140, 127,.5);
+        transform: scale(1);
+    }
+    #blog-part .right .text {
+        width: 100%;
+        top: -111px;
+        height: 433px;
+    }
+    #blog-part .right .text .admin p {
+        margin-left: -164px;
+   
+    }
+    #blog-part .right .text .admin .coment {
+        left: 124px;
+        width: 52%;
+    }
+    #blog-part .right .text .admin .coment .one {
+        margin-left: -79px;
+    }
+    #blog-part .right .text .admin .coment .three {
+        right: -1px;
+    }
+
+    #blog-part .right .text .para p {
+        padding: 29px 1px;
+    }
+    #blog-part .right .text .share p {
+        margin-left: 222px;
+    }
+    #blog-part .browse {
+        margin-top: 20px;
+        margin-left: 86px;
+        width: 71%;
+    }
+      /* ========blog=========== */
+        /* ========footer=========== */
+        .footer-part {
+            height: 659px;
+         
+        }
+    
+      .footer-part .details {
+        width: 100%;
+    }
+    .footer-part .details .title h3 {
+        left: 104px;
+    }
+    .footer-part .details .list .item {
+        display: block;
+    }
+    .footer-part .details .list .text a {
+        margin-left: -83px;
+       
+    }
+    .footer-part .details .list .two .text a {
+        margin-left: -104px;
+    }
+    .footer-part .details .list .three .text a {
+        margin-left: -103px;
+    }
+    .footer-part .details .list {
+        width: 52%;
+    }
+    .footer-part .details .tag {
+        margin-top: 122px;
+    }
+    .footer-part .details .tag h3 {
+        margin-left: 135px;
+    }
+    .footer-part .details .icon ul {
+        margin-left: 1px;
+    }
+  
+     /* ========footer=========== */
+     #copy-part {
+      
+            filter: drop-shadow(0 0 0.0rem transparent);
+        width: 99%;
+    }
+
+
+
+    /* ================================================== */
+}
+
+
+@media (min-width:393px) and (max-width:409px){
+    nav img{
+        width: 83%;
+    }
+    nav ul{
+        background: #d6c6b2;
+        padding-bottom: 41px;
+    }
+    nav ul li{
+        margin-left: 47px;
+    }
+    nav ul li a:hover {
+        background: #d6c6b2;
+        color: red !important;
+    }
+    nav i{
+        color: #fff;
+    }
+
+     /* ========nav=========== */
+    /* ========banner=========== */
+    #banner-part {
+        padding-bottom: 210px;
+        
+    }
+
+    #banner-part img{
+        width: 242%;
+        margin-top: 89px;
+    }
+    #banner-part .details h3 {
+        top: 436px;
+        left: 58px;
+       
+    }
+    #banner-part .details h1 {
+        font-size: 62px;
+        top: 458px;
+        left: 60px;
+    }
+    #banner-part .details h2 {
+        font-size: 58px;
+        top: 525px;
+        left: 22px;
+    }
+    #banner-part .details .browser {
+        bottom: 45px;
+        left: 49px;
+    
+    }
+
+    
+    /* ========banner=========== */
+    /* ========about=========== */
+    #about-part {
+        height: 1319px;
+    }
+    #about-part .text p {
+        font-size: 16px;
+        margin-left: 5px;
+     
+    }
+    #about-part .text h3 {
+        margin-top: 36px;
+    
+    }
+    #about-part .text ul {
+        margin-left: -9px;
+    }
+       /* ========about=========== */
+    /* ========service=========== */
+
+    #service-part {
+        margin-top: -1px;
+        height: 1285px;
+    }
+    #service-part h3 {
+        margin-left: -74px;
+    }
+    #service-part .item {
+        width: 100%;
+        margin-top: 131px;
+        text-align: center;
+    }
+    #service-part .item h3 {
+        margin-left: 7px;
+    }
+    /* ========service=========== */
+    /* ========portfolio=========== */
+    #portfolio-part {
+        height: 2675px;
+    }
+
+    #portfolio-part .images .upper {
+        display: block;
+    }
+    #portfolio-part .images .item {
+        left: 30px;
+    }
+    #portfolio-part .images .item img {
+        width: 90%;
+        margin-left: -26px;
+    }
+    #portfolio-part .images .item .overlay {
+        width: 90% !important;
+        background: rgb(215, 190, 170,.4);
+        left: 5px;
+        opacity: 1;
+        transform: scale(1);
+    }
+    #portfolio-part .images .lower {
+        display: block;
+       
+    }
+    #portfolio-part .list h3 {
+        margin-left: -11px;
+     
+    }
+    #portfolio-part .list ul li {
+        margin-left: -36px;
+    }
+    #portfolio-part .list ul .logo {
+        margin-left: -54px;
+    }
+    #portfolio-part .list ul .ilu {
+        margin-left: -54px;
+    }
+    #portfolio-part .list ul .brand {
+        margin-left: -28px;
+    }
+    #portfolio-part .list ul .motion {
+        margin-left: -11px;
+    }
+    #portfolio-part .list ul .apps {
+        margin-left: -47px;
+    }
+    #portfolio-part a {
+        margin-left: -8px;
+        margin-top: 18px;
+    }
+
+
+      /* ========portfolio=========== */
+      /* ========test=========== */
+      #testi-part .item .left img {
+        width: 100%;
+    }
+    #testi-part .item .right h3 {
+        margin-left: 28px;
+     
+    }
+    #testi-part .item .right h4 {
+        margin-left: 24px;
+      
+    }
+    #testi-part .item .right .star {
+        margin-left: 23px;
+     
+    }
+    #testi-part .item .right p {
+        margin-left: 21px;
+    }
+    #testi-part .top{
+        font-size: 20px;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background: #d6c6b2;
+        text-align: center;
+        position: absolute;
+        top: 103%;
+        left: 33%;
+    }
+    #testi-part .down{
+        font-size: 20px;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background: #d6c6b2;
+        text-align: center;
+        position: absolute;
+        top: 103%;
+        right: 33%;
+    }
+  
+    /* ========test=========== */
+    /* ========price=========== */
+    #price-part {
+        height: 2371px;
+        
+    }
+    #price-part .title h3 {
+        margin-left: -55px;
+        margin-top: -72px;
+    }
+    #price-part .item {
+        margin-top: 141px;
+    }
+
+      /* ========price=========== */
+      /* ========blog=========== */
+
+   
+    #blog-part { 
+        height: 2533px;
+    }
+    #blog-part .title {
+        left: 35%;
+      
+    }
+    #blog-part .left {
+        margin-left: 0px;
+        margin-top: 166px;
+    }
+    #blog-part .left .item {
+        background: transparent;
+        display: block;
+        
+    }
+    #blog-part .left .item .img{
+        background: transparent;
+    }
+    #blog-part .left .item .img img {
+        width: 152%;
+        margin-left: 10px;
+    }
+    #blog-part .left .item .overlay {
+        width: 152%;
+        height: 138%;
+        background: rgb(151, 140, 127,.5);
+        left: 10px;
+        transform: scale(1);
+    }
+    #blog-part .left .item .details {
+        width: 94%;
+        margin-top: 98px;
+        margin-left: 14px;
+    }
+    #blog-part .left .item .details .admin i {
+        margin-left: -208px;
+    }
+    #blog-part .left .item .details .share p {
+        margin-left: 257px;
+    }
+    #blog-part .right {
+        width: 95%;
+        position: relative;
+        left: 9px;
+    
+    }
+    #blog-part .right .pic {
+        width: 100%;
+        background: transparent;
+    }
+    #blog-part .right .overlay {
+        width: 100%;
+        height: 108%;
+        background: rgb(151, 140, 127,.5);
+        transform: scale(1);
+    }
+    #blog-part .right .text {
+        width: 100%;
+        height: 354px;
+    }
+    #blog-part .right .text .admin p {
+        margin-left: -221px;
+    }
+    #blog-part .right .text .admin .coment .one {
+        margin-left: -44px;
+    }
+    #blog-part .right .text .admin .coment .three {
+        right: -39px;
+    }
+    #blog-part .right .text .share p {
+        margin-left: 304px;
+    }
+    
+    #blog-part .browse {
+        margin-left: 131px;
+        width: 51%;
+    }
+      /* ========blog=========== */
+        /* ========footer=========== */
+        .footer-part {
+            height: 608px;
+         
+        }
+    
+      .footer-part .details {
+        width: 100%;
+    }
+    .footer-part .details .title h3 {
+        left: 127px;
+    }
+    .footer-part .details .list .item {
+        display: block;
+    }
+    .footer-part .details .list .font {
+        margin-left: 17px;
+    }
+    .footer-part .details .list .three .text a {
+        margin-left: -121px;
+    }
+    .footer-part .details .tag {
+        margin-top: 122px;
+    }
+    .footer-part .details .tag h3 {
+        margin-left: 135px;
+    }
+    .footer-part .details .icon ul {
+        margin-left: -15px;
+    }
+  
+     /* ========footer=========== */
+
+
+
+    /* ================================================== */
+}
+
+
+
+
+@media (min-width:576px) and (max-width:767px){
+    nav img{
+        width: 83%;
+    }
+    nav ul{
+        background: #d6c6b2;
+        padding-bottom: 41px;
+    }
+    nav ul li{
+        margin-left: 47px;
+    }
+    nav ul li a:hover {
+        background: #d6c6b2;
+        color: red !important;
+    }
+    nav i{
+        color: #fff;
+    }
+
+     /* ========nav=========== */
+    /* ========banner=========== */
+    #banner-part {
+        padding-bottom: 89px;
+        
+    }
+
+    #banner-part img{
+        width: 154%;
+        margin-top: 89px;
+        margin-left: -40px;
+    }
+    #banner-part .details h3 {
+        top: 189px;
+        left: 296px;
+       
+    }
+    #banner-part .details h1 {
+        font-size: 62px;
+        top: 217px;
+        left: 296px;
+    }
+    #banner-part .details h2 {
+        font-size: 58px;
+        top: 292px;
+        left: 247px;
+    }
+    #banner-part .details .browser {
+        bottom: 86px;
+        left: 116px;
+    
+    }
+
+    
+    /* ========banner=========== */
+    /* ========about=========== */
+    #about-part {
+        height: 1319px;
+    }
+    #about-part .text h2 {
+        margin-left: 160px;
+    }
+    #about-part .text p {
+        font-size: 16px;
+        margin-left: 5px;
+     
+    }
+    #about-part .text h3 {
+        margin-top: 36px;
+    
+    }
+    #about-part .text ul {
+        margin-left: -9px;
+    }
+       /* ========about=========== */
+    /* ========service=========== */
+
+    #service-part {
+        margin-top: -1px;
+        height: 1285px;
+    }
+    #service-part h3 {
+        margin-left: -74px;
+    }
+    #service-part .item {
+        width: 100%;
+        margin-top: 131px;
+        text-align: center;
+    }
+    #service-part .item h3 {
+        margin-left: 7px;
+    }
+    /* ========service=========== */
+    /* ========portfolio=========== */
+    #portfolio-part {
+        height: 2082px;
+    }
+
+    #portfolio-part .images .upper {
+        display: block;
+    }
+    #portfolio-part .images .item img {
+        width: 90%;
+        margin-left: -26px;
+    }
+    #portfolio-part .images .item .overlay {
+        width: 89% !important;
+        background: rgb(215, 190, 170,.4);
+        left: 2px;
+        opacity: 1;
+        transform: scale(1);
+    }
+    #portfolio-part .images .lower {
+        display: block;
+       
+    }
+    #portfolio-part .list h3 {
+        margin-left: -11px;
+     
+    }
+    #portfolio-part .list ul li {
+        margin-left: -36px;
+    }
+    #portfolio-part .list ul .logo {
+        margin-left: -54px;
+    }
+    #portfolio-part .list ul .ilu {
+        margin-left: -54px;
+    }
+    #portfolio-part .list ul .brand {
+        margin-left: -28px;
+    }
+    #portfolio-part .list ul .motion {
+        margin-left: -11px;
+    }
+    #portfolio-part .list ul .apps {
+        margin-left: -47px;
+    }
+    #portfolio-part a {
+        margin-left: -8px;
+        margin-top: 18px;
+    }
+
+
+      /* ========portfolio=========== */
+      /* ========test=========== */
+      #testi-part .title {
+        width: 87%;
+        left: 35px;
+    }
+      #testi-part .item .left img {
+        width: 100%;
+    }
+    #testi-part .item .right h3 {
+        margin-left: 28px;
+     
+    }
+    #testi-part .item .right h4 {
+        margin-left: 24px;
+      
+    }
+    #testi-part .item .right .star {
+        margin-left: 23px;
+     
+    }
+    #testi-part .item .right p {
+        margin-left: 21px;
+    }
+    #testi-part .top{
+        font-size: 20px;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        background: #d6c6b2;
+        text-align: center;
+        position: absolute;
+        top: 108%;
+        left: 36%;
+    }
+    #testi-part .down{
+        font-size: 20px;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        background: #d6c6b2;
+        text-align: center;
+        position: absolute;
+        top: 108%;
+        right: 35%;
+    }
+  
+    /* ========test=========== */
+    /* ========price=========== */
+    #price-part {
+        height: 2371px;
+        
+    }
+    #price-part .title h3 {
+        margin-left: -55px;
+        margin-top: -72px;
+    }
+    #price-part .item {
+        margin-top: 141px;
+    }
+    #price-part .item .list ul {
+        margin-left: -33px;
+    }
+
+      /* ========price=========== */
+      /* ========blog=========== */
+
+   
+      #blog-part { 
+        height: 2801px;
+    }
+    #blog-part .title {
+        left: 35%;
+        width: 53%;
+      
+    }
+    #blog-part .left {
+        margin-left: 0px;
+        margin-top: 166px;
+    }
+    #blog-part .left .item {
+        background: transparent;
+        display: block;
+        width: 100%;
+        
+    }
+    #blog-part .left .item .img{
+        background: transparent;
+        width: 62%;
+
+    }
+    #blog-part .left .item .img img {
+        width: 138%;
+        margin-left: 48px;
+    }
+    #blog-part .left .item .overlay {
+        width: 138%;
+        height: 172%;
+        background: rgb(151, 140, 127,.5);
+        left: 48px;
+        transform: scale(1);
+    }
+    #blog-part .left .item .details {
+        width: 86%;
+        margin-top: 225px;
+        margin-left: 47px;
+        height: 342px;
+    }
+    #blog-part .left .item .details .admin .coment {
+        width: 52%;
+        left: 216px;
+    }
+    #blog-part .left .item .details .admin i {
+        margin-left: -301px;
+    }
+    #blog-part .left .item .details .share a {
+        margin-top: 59px;
+    }
+    #blog-part .left .item .details .share p {
+        margin-left: 206px;
+        margin-top: -23px;
+    }
+    #blog-part .right {
+        width: 95%;
+        position: relative;
+        left: 9px;
+        top: 72px;
+    
+    }
+    #blog-part .right .pic {
+        width: 100%;
+        background: transparent;
+    }
+    #blog-part .right .overlay {
+        width: 100%;
+        height: 88%;
+        background: rgb(151, 140, 127,.5);
+        transform: scale(1);
+    }
+    #blog-part .right .text {
+        width: 100%;
+        top: -111px;
+        height: 411px;
+    }
+    #blog-part .right .text .admin p {
+        margin-left: -336px;
+   
+    }
+    #blog-part .right .text .admin .coment {
+        left: 219px;
+        width: 52%;
+    }
+    #blog-part .right .text .admin .coment .one {
+        margin-left: -79px;
+    }
+    #blog-part .right .text .admin .coment .three {
+        right: -1px;
+    }
+
+    #blog-part .right .text .para p {
+        padding: 29px 1px;
+        font-size: 19px;
+    }
+    #blog-part .right .text .share p {
+        margin-left: 397px;
+        margin-top: -37px;
+        font-size: 26px;
+    }
+    #blog-part .right .text .share a {
+        font-size: 24px;
+        margin-top: 36px;
+      
+    }
+    #blog-part .browse {
+        margin-top: 20px;
+        margin-left: 209px;
+        width: 37%;
+    }
+      /* ========blog=========== */
+        /* ========footer=========== */
+        .footer-part {
+            height: 608px;
+         
+        }
+    
+      .footer-part .details {
+        width: 100%;
+    }
+    .footer-part .details .title h3 {
+        left: 252px;
+    }
+    .footer-part .details .list {
+        width: 74%;
+    }
+    .footer-part .details .list .font i {
+        font-size: 30px;
+        margin-left: 269px;
+    }
+
+    .footer-part .details .list .item {
+        display: block;
+        width: 69%;
+    }
+    .footer-part .details .list .text a {
+        margin-left: 13px;
+    }
+    .footer-part .details .list .two .text a {
+        margin-left: 56px;
+    }
+    .footer-part .details .list .three .text a {
+        margin-left: 37px;
+    }
+    .footer-part .details .tag {
+        margin-top: 122px;
+    }
+    .footer-part .details .tag h3 {
+        margin-left: 252px;
+    }
+    .footer-part .details .icon ul {
+        margin-left: 76px;
+    }
+  
+     /* ========footer=========== */
+
+     #copy-part {
+        
+        filter: drop-shadow(0 0 0.0rem transparent);
+       
+    }
+
+
+
+    /* ================================================== */
+}
